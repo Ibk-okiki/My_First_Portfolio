@@ -1,126 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Your Full Name - Personal Portfolio</title>
-  <style>
-    /* Basic styling to make it look neat */
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 1rem;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header, nav, section, article, footer {
-      margin-bottom: 2rem;
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      gap: 1rem;
-    }
-    nav a {
-      text-decoration: none;
-      color: #0077cc;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .project {
-      background-color: #fff;
-      border: 1px solid #ddd;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #666;
-      border-top: 1px solid #ddd;
-      padding-top: 1rem;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <title>My Cool Website</title>
 </head>
 <body>
   <header>
-    <h1>Your Full Name</h1>
-    <p>Passionate Software Developer & Tech Enthusiast</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
   </header>
-
-  <nav>
-    <ul>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <p>
-      Hello! I am a software developer with a passion for creating web applications and learning new technologies. I enjoy solving complex problems and building projects that make life easier.
-    </p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <article class="project">
-      <h3>Project One</h3>
-      <p>A web application that helps users track their daily tasks and boost productivity.</p>
-      <a href="https://github.com/yourusername/project-one" target="_blank">View Project</a>
+  
+  <main>
+    <article>
+      <h1>Welcome to My Cool Website</h1>
+      <p>This is a creative first webpage.</p>
+      <p>We are excited to share some info about our learners.</p>
+      <p>Feel free to explore and come back often!</p>
+      <p>Here is a little table showcasing some learners from different countries.</p>
+      
+      <!-- Learners Table starts here -->
+      <table border="1" style="border-collapse: collapse; width: 100%; max-width: 600px;">
+        <thead style="background-color: #f2f2f2;">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td>28</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>32</td>
+            <td>Australia</td>
+          </tr>
+          <tr>
+            <td>Sophia</td>
+            <td>21</td>
+            <td>UK</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Learners Table ends here -->
     </article>
-
-    <article class="project">
-      <h3>Project Two</h3>
-      <p>An interactive data visualization dashboard for analyzing financial trends.</p>
-      <a href="https://github.com/yourusername/project-two" target="_blank">View Project</a>
-    </article>
-
-    <article class="project">
-      <h3>Project Three</h3>
-      <p>A mobile app for language learners to practice vocabulary through games.</p>
-      <a href="https://github.com/yourusername/project-three" target="_blank">View Project</a>
-    </article>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I graduated with a degree in Computer Science and have experience in full-stack development, including front-end and back-end technologies.
-    </p>
-    <p>Skills:</p>
-    <ul>
-      <li>JavaScript, HTML5, CSS3</li>
-      <li>React, Node.js, Express</li>
-      <li>Python and Django</li>
-      <li>Database Management (SQL, MongoDB)</li>
-    </ul>
-    <p>Hobbies:</p>
-    <ul>
-      <li>Coding challenges</li>
-      <li>Reading tech blogs</li>
-      <li>Open-source contribution</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    <p>
-      LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a><br />
-      GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
-    </p>
-  </section>
+    
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
   <footer>
-    <p>&copy; 2024 Your Full Name</p>
+    <p>Made by Your Name - <a href="https://example.com" target="_blank">here</a>.</p>
   </footer>
 </body>
 </html>
